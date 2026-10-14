@@ -1,0 +1,291 @@
+{
+ "source": "Venues from ESPN team schedules; coordinates from OpenStreetMap Nominatim (ODbL). 'approximate' means city-level.",
+ "updatedAt": "2026-10-03",
+ "venues": {
+  "Aviva Stadium|Dublin|": {
+   "name": "Aviva Stadium",
+   "city": "Dublin",
+   "state": null,
+   "lat": 53.3352254,
+   "lng": -6.2281851,
+   "geocodedFrom": "Aviva Stadium, Dublin"
+  },
+  "Kenan Stadium|Chapel Hill|NC": {
+   "name": "Kenan Stadium",
+   "city": "Chapel Hill",
+   "state": "NC",
+   "lat": 35.9069432,
+   "lng": -79.0478199,
+   "geocodedFrom": "Kenan Stadium, Chapel Hill, NC"
+  },
+  "Memorial Stadium (Clemson, SC)|Clemson|SC": {
+   "name": "Memorial Stadium (Clemson, SC)",
+   "city": "Clemson",
+   "state": "SC",
+   "lat": 34.6850749,
+   "lng": -82.8364111,
+   "geocodedFrom": "Clemson, SC",
+   "approximate": true
+  },
+  "Acrisure Stadium|Pittsburgh|PA": {
+   "name": "Acrisure Stadium",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "lat": 40.4467166,
+   "lng": -80.0157199,
+   "geocodedFrom": "Acrisure Stadium, Pittsburgh, PA"
+  },
+  "Wallace Wade Stadium|Durham|NC": {
+   "name": "Wallace Wade Stadium",
+   "city": "Durham",
+   "state": "NC",
+   "lat": 35.9954458,
+   "lng": -78.9418892,
+   "geocodedFrom": "Wallace Wade Stadium, Durham, NC"
+  },
+  "Pratt & Whitney Stadium|East Hartford|CT": {
+   "name": "Pratt & Whitney Stadium",
+   "city": "East Hartford",
+   "state": "CT",
+   "lat": 41.7596011,
+   "lng": -72.6188311,
+   "geocodedFrom": "Pratt & Whitney Stadium, East Hartford, CT"
+  },
+  "Scott Stadium|Charlottesville|VA": {
+   "name": "Scott Stadium",
+   "city": "Charlottesville",
+   "state": "VA",
+   "lat": 38.029306,
+   "lng": -78.4766781,
+   "geocodedFrom": "Charlottesville, VA",
+   "approximate": true
+  },
+  "Gies Memorial Stadium|Champaign|IL": {
+   "name": "Gies Memorial Stadium",
+   "city": "Champaign",
+   "state": "IL",
+   "lat": 40.0992862,
+   "lng": -88.2359605,
+   "geocodedFrom": "Gies Memorial Stadium, Champaign, IL"
+  },
+  "Bobby Dodd Stadium|Atlanta|GA": {
+   "name": "Bobby Dodd Stadium",
+   "city": "Atlanta",
+   "state": "GA",
+   "lat": 33.772476,
+   "lng": -84.3929589,
+   "geocodedFrom": "Bobby Dodd Stadium, Atlanta, GA"
+  },
+  "Carter-Finley Stadium|Raleigh|NC": {
+   "name": "Carter-Finley Stadium",
+   "city": "Raleigh",
+   "state": "NC",
+   "lat": 35.8008464,
+   "lng": -78.7196045,
+   "geocodedFrom": "Carter-Finley Stadium, Raleigh, NC"
+  },
+  "Hard Rock Stadium|Miami Gardens|FL": {
+   "name": "Hard Rock Stadium",
+   "city": "Miami Gardens",
+   "state": "FL",
+   "lat": 25.9579032,
+   "lng": -80.2388497,
+   "geocodedFrom": "Hard Rock Stadium, Miami Gardens, FL"
+  },
+  "Allegacy Federal Credit Union Stadium|Winston-Salem|NC": {
+   "name": "Allegacy Federal Credit Union Stadium",
+   "city": "Winston-Salem",
+   "state": "NC",
+   "lat": 36.130554,
+   "lng": -80.2546325,
+   "geocodedFrom": "Allegacy Federal Credit Union Stadium, Winston-Salem, NC"
+  },
+  "FirstBank Stadium|Nashville|TN": {
+   "name": "FirstBank Stadium",
+   "city": "Nashville",
+   "state": "TN",
+   "lat": 36.1439196,
+   "lng": -86.8089205,
+   "geocodedFrom": "FirstBank Stadium, Nashville, TN"
+  },
+  "Stanford Stadium|Stanford|CA": {
+   "name": "Stanford Stadium",
+   "city": "Stanford",
+   "state": "CA",
+   "lat": 37.4345264,
+   "lng": -122.1619867,
+   "geocodedFrom": "Stanford Stadium, Stanford, CA"
+  },
+  "Doak Campbell Stadium|Tallahassee|FL": {
+   "name": "Doak Campbell Stadium",
+   "city": "Tallahassee",
+   "state": "FL",
+   "lat": 30.438151,
+   "lng": -84.3043924,
+   "geocodedFrom": "Doak Campbell Stadium, Tallahassee, FL"
+  },
+  "Bryant-Denny Stadium|Tuscaloosa|AL": {
+   "name": "Bryant-Denny Stadium",
+   "city": "Tuscaloosa",
+   "state": "AL",
+   "lat": 33.2077203,
+   "lng": -87.550453,
+   "geocodedFrom": "Bryant-Denny Stadium, Tuscaloosa, AL"
+  },
+  "Dowdy-Ficklen Stadium|Greenville|NC": {
+   "name": "Dowdy-Ficklen Stadium",
+   "city": "Greenville",
+   "state": "NC",
+   "lat": 35.5964639,
+   "lng": -77.3653057,
+   "geocodedFrom": "Dowdy-Ficklen Stadium, Greenville, NC"
+  },
+  "S.B. Ballard Stadium|Norfolk|VA": {
+   "name": "S.B. Ballard Stadium",
+   "city": "Norfolk",
+   "state": "VA",
+   "lat": 36.8493695,
+   "lng": -76.2899539,
+   "geocodedFrom": "Norfolk, VA",
+   "approximate": true
+  },
+  "Protective Stadium|Birmingham|AL": {
+   "name": "Protective Stadium",
+   "city": "Birmingham",
+   "state": "AL",
+   "lat": 33.5275724,
+   "lng": -86.8090626,
+   "geocodedFrom": "Protective Stadium, Birmingham, AL"
+  },
+  "Simmons Bank Liberty Stadium|Memphis|TN": {
+   "name": "Simmons Bank Liberty Stadium",
+   "city": "Memphis",
+   "state": "TN",
+   "lat": 35.1211305,
+   "lng": -89.9774153,
+   "geocodedFrom": "Simmons Bank Liberty Stadium, Memphis, TN"
+  },
+  "Jerry Richardson Stadium|Charlotte|NC": {
+   "name": "Jerry Richardson Stadium",
+   "city": "Charlotte",
+   "state": "NC",
+   "lat": 35.310474,
+   "lng": -80.7400756,
+   "geocodedFrom": "Jerry Richardson Stadium, Charlotte, NC"
+  },
+  "Michie Stadium|West Point|NY": {
+   "name": "Michie Stadium",
+   "city": "West Point",
+   "state": "NY",
+   "lat": 41.3912693,
+   "lng": -73.9658803,
+   "geocodedFrom": "West Point, NY",
+   "approximate": true
+  },
+  "Ross-Ade Stadium|West Lafayette|IN": {
+   "name": "Ross-Ade Stadium",
+   "city": "West Lafayette",
+   "state": "IN",
+   "lat": 40.434568,
+   "lng": -86.9184948,
+   "geocodedFrom": "Ross-Ade Stadium, West Lafayette, IN"
+  },
+  "L&N Federal Credit Union Stadium|Louisville|KY": {
+   "name": "L&N Federal Credit Union Stadium",
+   "city": "Louisville",
+   "state": "KY",
+   "lat": 38.2060161,
+   "lng": -85.7587734,
+   "geocodedFrom": "L&N Federal Credit Union Stadium, Louisville, KY"
+  },
+  "California Memorial Stadium|Berkeley|CA": {
+   "name": "California Memorial Stadium",
+   "city": "Berkeley",
+   "state": "CA",
+   "lat": 37.8709949,
+   "lng": -122.2507361,
+   "geocodedFrom": "California Memorial Stadium, Berkeley, CA"
+  },
+  "Gerald J. Ford Stadium|Dallas|TX": {
+   "name": "Gerald J. Ford Stadium",
+   "city": "Dallas",
+   "state": "TX",
+   "lat": 32.8377899,
+   "lng": -96.782791,
+   "geocodedFrom": "Gerald J. Ford Stadium, Dallas, TX"
+  },
+  "Kidd Brewer Stadium|Boone|NC": {
+   "name": "Kidd Brewer Stadium",
+   "city": "Boone",
+   "state": "NC",
+   "lat": 36.2114887,
+   "lng": -81.6855717,
+   "geocodedFrom": "Kidd Brewer Stadium, Boone, NC"
+  },
+  "Brooks Stadium (SC)|Conway|SC": {
+   "name": "Brooks Stadium (SC)",
+   "city": "Conway",
+   "state": "SC",
+   "lat": 33.7929212,
+   "lng": -79.0174511,
+   "geocodedFrom": "Brooks Stadium (SC), Conway, SC"
+  },
+  "Allen E. Paulson Stadium|Statesboro|GA": {
+   "name": "Allen E. Paulson Stadium",
+   "city": "Statesboro",
+   "state": "GA",
+   "lat": 32.4121444,
+   "lng": -81.7833368,
+   "geocodedFrom": "Allen E. Paulson Stadium, Statesboro, GA"
+  },
+  "Joan C. Edwards Stadium|Huntington|WV": {
+   "name": "Joan C. Edwards Stadium",
+   "city": "Huntington",
+   "state": "WV",
+   "lat": 38.4248685,
+   "lng": -82.4210088,
+   "geocodedFrom": "Joan C. Edwards Stadium, Huntington, WV"
+  },
+  "Hancock Whitney Stadium|Mobile|AL": {
+   "name": "Hancock Whitney Stadium",
+   "city": "Mobile",
+   "state": "AL",
+   "lat": 30.696932,
+   "lng": -88.1925624,
+   "geocodedFrom": "Hancock Whitney Stadium, Mobile, AL"
+  },
+  "Vaught-Hemingway Stadium|Oxford|MS": {
+   "name": "Vaught-Hemingway Stadium",
+   "city": "Oxford",
+   "state": "MS",
+   "lat": 34.3619818,
+   "lng": -89.5341523,
+   "geocodedFrom": "Vaught-Hemingway Stadium, Oxford, MS"
+  },
+  "DATCU Stadium|Denton|TX": {
+   "name": "DATCU Stadium",
+   "city": "Denton",
+   "state": "TX",
+   "lat": 33.2039397,
+   "lng": -97.1594204,
+   "geocodedFrom": "DATCU Stadium, Denton, TX"
+  },
+  "Lincoln Financial Field|Philadelphia|PA": {
+   "name": "Lincoln Financial Field",
+   "city": "Philadelphia",
+   "state": "PA",
+   "lat": 39.9009099,
+   "lng": -75.1674892,
+   "geocodedFrom": "Lincoln Financial Field, Philadelphia, PA"
+  },
+  "H. A. Chapman Stadium|Tulsa|OK": {
+   "name": "H. A. Chapman Stadium",
+   "city": "Tulsa",
+   "state": "OK",
+   "lat": 36.1563122,
+   "lng": -95.9927516,
+   "geocodedFrom": "Tulsa, OK",
+   "approximate": true
+  }
+ }
+}

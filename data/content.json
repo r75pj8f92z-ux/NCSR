@@ -1,0 +1,757 @@
+{
+  "_readme": "Edit this file, then restart the server. Facts carry a source and an 'as of' date. Records change weekly: update the record and recordAsOf fields after each game. Rosters live in data/rosters.json. Items set to null show as 'awaiting data'.",
+  "brand": {
+    "name": "North Carolina Sports Report",
+    "tagline": "Insider coverage of North Carolina college football and men's basketball."
+  },
+  "sports": [
+    {
+      "id": "football",
+      "label": "Football"
+    },
+    {
+      "id": "mens-basketball",
+      "label": "Men's Basketball"
+    }
+  ],
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "price": 0,
+      "tagline": "Start here",
+      "features": [
+        "Basic news for all seven programs",
+        "Basic program updates",
+        "Live discussion board: reply to any topic"
+      ]
+    },
+    {
+      "id": "insider",
+      "name": "Insider",
+      "price": 5,
+      "tagline": "Go deeper",
+      "features": [
+        "Everything in Free",
+        "In-depth and breaking news",
+        "Insider intel and NIL estimates by program",
+        "Program feature notes",
+        "Start your own discussion topics"
+      ]
+    },
+    {
+      "id": "elite",
+      "name": "Elite",
+      "price": 20,
+      "tagline": "Full access",
+      "features": [
+        "Everything in Insider",
+        "NC Metrics: advanced team and player metrics, only on North Carolina Sports Report",
+        "Full roster deep-dives for every player",
+        "AI analysis of each team",
+        "Team history archive"
+      ]
+    }
+  ],
+  "social": {
+    "x": "",
+    "instagram": "https://www.instagram.com/ncsrnetwork/",
+    "facebook": "",
+    "youtube": "",
+    "tiktok": "",
+    "threads": ""
+  },
+  "programs": [
+    {
+      "id": "unc",
+      "name": "North Carolina",
+      "nickname": "Tar Heels",
+      "short": "UNC",
+      "color": "#7BAFD4",
+      "overview": "Chapel Hill. Carolina football and men's basketball, with 6 men's basketball national championships.",
+      "sports": {
+        "football": {
+          "coach": "Bill Belichick",
+          "record": "2–2",
+          "conference": "0–1 ACC",
+          "asOf": "2026-10-03",
+          "source": "https://en.wikipedia.org/wiki/2026_North_Carolina_Tar_Heels_football_team"
+        },
+        "mens-basketball": {
+          "coach": "Michael Malone",
+          "record": null,
+          "conference": null,
+          "note": "First season (hired April 2026). Opens Nov. 3 vs. Western Carolina.",
+          "asOf": "2026-10-03",
+          "source": "https://goheels.com/news/2026/4/7/mens-basketball-carolina-hires-michael-malone-as-mens-basketball-head-coach"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": 21876000,
+            "note": "Third-party estimate of 2026 football roster cost (nil-ncaa.com). Not a verified NIL total.",
+            "source": "https://nil-ncaa.com/"
+          },
+          "mens-basketball": {
+            "estimate": 20000000,
+            "note": "Roster valuation reported by CBS Sports for 2026-27 (not a verified NIL total).",
+            "source": "https://www.cbssports.com/college-basketball/news/unc-basketball-roster-michael-malone/"
+          }
+        },
+        "notes": []
+      },
+      "history": [
+        {
+          "year": 1957,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 1982,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 1993,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 2005,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 2009,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 2017,
+          "event": "Men's basketball NCAA national champion"
+        }
+      ],
+      "espnId": "153"
+    },
+    {
+      "id": "duke",
+      "name": "Duke",
+      "nickname": "Blue Devils",
+      "short": "Duke",
+      "color": "#6E8CFF",
+      "overview": "Durham. Blue Devils football and men's basketball, with 5 men's basketball national championships.",
+      "sports": {
+        "football": {
+          "coach": "Manny Diaz",
+          "record": "4–0",
+          "conference": "1–0 ACC",
+          "asOf": "2026-10-03",
+          "source": "https://en.wikipedia.org/wiki/2026_Duke_Blue_Devils_football_team"
+        },
+        "mens-basketball": {
+          "coach": "Jon Scheyer",
+          "record": null,
+          "conference": null,
+          "note": "Fifth season.",
+          "asOf": "2026-10-03",
+          "source": "https://www.cbssports.com/college-basketball/news/duke-basketball-transfer-portal-news-2026-recruits-prospects-roster-updates-targets/"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": 20492000,
+            "note": "Third-party estimate of 2026 football roster cost (nil-ncaa.com). Not a verified NIL total.",
+            "source": "https://nil-ncaa.com/"
+          },
+          "mens-basketball": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          }
+        },
+        "notes": []
+      },
+      "history": [
+        {
+          "year": 1991,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 1992,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 2001,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 2010,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 2015,
+          "event": "Men's basketball NCAA national champion"
+        }
+      ],
+      "espnId": "150"
+    },
+    {
+      "id": "ncsu",
+      "name": "NC State",
+      "nickname": "Wolfpack",
+      "short": "NC State",
+      "color": "#E0474C",
+      "overview": "Raleigh. Wolfpack football and men's basketball, with 2 men's basketball national championships.",
+      "sports": {
+        "football": {
+          "coach": "Dave Doeren",
+          "record": "2–2",
+          "conference": "0–1 ACC (before Oct. 3 game vs. Louisville)",
+          "asOf": "2026-10-03",
+          "source": "https://en.wikipedia.org/wiki/2026_NC_State_Wolfpack_football_team"
+        },
+        "mens-basketball": {
+          "coach": "Justin Gainey",
+          "record": null,
+          "conference": null,
+          "note": "First head-coaching job (hired March 31, 2026).",
+          "asOf": "2026-10-03",
+          "source": "https://www.wral.com/sports/ncstate-justin-gainey-mens-basketball-coach-replace-will-wade-march-2026/"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": 20456000,
+            "note": "Third-party estimate of 2026 football roster cost (nil-ncaa.com). Not a verified NIL total.",
+            "source": "https://nil-ncaa.com/"
+          },
+          "mens-basketball": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          }
+        },
+        "notes": []
+      },
+      "history": [
+        {
+          "year": 1974,
+          "event": "Men's basketball NCAA national champion"
+        },
+        {
+          "year": 1983,
+          "event": "Men's basketball NCAA national champion"
+        }
+      ],
+      "espnId": "152"
+    },
+    {
+      "id": "ecu",
+      "name": "East Carolina",
+      "nickname": "Pirates",
+      "short": "ECU",
+      "color": "#A77BD8",
+      "overview": "Greenville. Pirates football and men's basketball.",
+      "sports": {
+        "football": {
+          "coach": "Blake Harrell",
+          "record": "2–2",
+          "conference": "0–0 American",
+          "asOf": "2026-10-03",
+          "source": "https://en.wikipedia.org/wiki/2026_East_Carolina_Pirates_football_team"
+        },
+        "mens-basketball": {
+          "coach": "Mike Schwartz",
+          "record": null,
+          "conference": null,
+          "note": "Returns for 2026-27 after an 11–20 season.",
+          "asOf": "2026-10-03",
+          "source": "https://ecupirates.com/news/2026/6/8/mens-basketball-announces-2026-27-roster"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          },
+          "mens-basketball": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          }
+        },
+        "notes": []
+      },
+      "history": [],
+      "espnId": "151"
+    },
+    {
+      "id": "wake",
+      "name": "Wake Forest",
+      "nickname": "Demon Deacons",
+      "short": "Wake",
+      "color": "#D4B45A",
+      "overview": "Winston-Salem. Demon Deacons football and men's basketball.",
+      "sports": {
+        "football": {
+          "coach": "Jake Dickert",
+          "record": "4–1",
+          "conference": "2–1 ACC",
+          "asOf": "2026-10-03",
+          "source": "https://godeacs.com/news/2026/10/3/football-wake-forest-records-largest-of-margin-of-victory-in-an-acc-game-defeats-stanford-57-3"
+        },
+        "mens-basketball": {
+          "coach": "Steve Forbes",
+          "record": null,
+          "conference": null,
+          "note": "Expected to return for a seventh season.",
+          "asOf": "2026-10-03",
+          "source": "https://godeacs.com/news/2026/7/7/mens-basketball-wake-forest-mens-basketball-announces-non-conference-schedule-for-2026-27-season"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": 20022000,
+            "note": "Third-party estimate of 2026 football roster cost (nil-ncaa.com). Not a verified NIL total.",
+            "source": "https://nil-ncaa.com/"
+          },
+          "mens-basketball": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          }
+        },
+        "notes": []
+      },
+      "history": [],
+      "espnId": "154"
+    },
+    {
+      "id": "appstate",
+      "name": "Appalachian State",
+      "nickname": "Mountaineers",
+      "short": "App State",
+      "color": "#FFCC00",
+      "overview": "Boone. Mountaineers football and men's basketball.",
+      "sports": {
+        "football": {
+          "coach": "Dowell Loggains",
+          "record": "3–1",
+          "conference": "0–0 Sun Belt",
+          "asOf": "2026-10-03",
+          "source": "https://en.wikipedia.org/wiki/2026_Appalachian_State_Mountaineers_football_team"
+        },
+        "mens-basketball": {
+          "coach": "Dustin Kerns",
+          "record": null,
+          "conference": null,
+          "note": "Eighth season.",
+          "asOf": "2026-10-03",
+          "source": "https://appstatesports.com/sports/mens-basketball/roster/coaches/dustin-kerns/1788"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          },
+          "mens-basketball": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          }
+        },
+        "notes": []
+      },
+      "history": [],
+      "espnId": "2026"
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte",
+      "nickname": "49ers",
+      "short": "Charlotte",
+      "color": "#3DBE8B",
+      "overview": "Charlotte. 49ers football and men's basketball.",
+      "sports": {
+        "football": {
+          "coach": "Tim Albin",
+          "record": "0–5",
+          "conference": "0–1 American",
+          "asOf": "2026-10-03",
+          "source": "https://charlotte49ers.com/news/2026/10/3/football-charlotte-falls-to-memphis-in-soggy-homecoming-contest"
+        },
+        "mens-basketball": {
+          "coach": "Wes Miller",
+          "record": null,
+          "conference": null,
+          "note": "First season (hired March 2026). Previously Cincinnati's head coach.",
+          "asOf": "2026-10-03",
+          "source": "https://charlotte49ers.com/news/2026/3/23/mens-basketball-wes-miller-named-head-coach-of-charlotte-49ers-mens-basketball"
+        }
+      },
+      "insider": {
+        "nil": {
+          "football": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          },
+          "mens-basketball": {
+            "estimate": null,
+            "note": "No reliable estimate found yet.",
+            "source": null
+          }
+        },
+        "notes": []
+      },
+      "history": [],
+      "espnId": "2429"
+    }
+  ],
+  "news": [
+    {
+      "id": "unc-fb-free-1",
+      "program": "unc",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-10-03",
+      "title": "UNC falls 37–26 to No. 3 Notre Dame",
+      "summary": "Carolina lost its second straight game, dropping to 2–2 (0–1 ACC).",
+      "body": "North Carolina lost 37–26 to No. 3 Notre Dame at Kenan Stadium on Oct. 3, its second straight loss. A kickoff return touchdown cut the Irish lead to one point before Notre Dame pulled away. Jordan Shipp (7 catches, 109 yards) and Jelani Thurman (5 catches, 50 yards, 2 TD) were the top receivers.",
+      "sourceName": "Sports Illustrated",
+      "sourceUrl": "https://www.si.com/college/unc/tar-heels-football-falls-notre-dame-biggest-takeaways"
+    },
+    {
+      "id": "unc-fb-insider-1",
+      "program": "unc",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": "2026-10-03",
+      "title": "Shipp and Thurman carry the UNC passing game",
+      "summary": "The two most-targeted receivers in the Notre Dame game.",
+      "body": "Jordan Shipp and Jelani Thurman were the Tar Heels' two clear playmakers against Notre Dame: Shipp with seven catches for 109 yards, and Thurman with five catches for 50 yards and two touchdowns. The Tar Heels stayed in the game for much of the afternoon before the Irish pulled away.",
+      "sourceName": "Sports Illustrated",
+      "sourceUrl": "https://www.si.com/college/unc/tar-heels-football-falls-notre-dame-biggest-takeaways"
+    },
+    {
+      "id": "wake-fb-free-1",
+      "program": "wake",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-10-03",
+      "title": "Wake Forest routs Stanford 57–3",
+      "summary": "The Demon Deacons improved to 4–1 (2–1 ACC) with a program-record ACC margin.",
+      "body": "Wake Forest beat Stanford 57–3 on Oct. 3, the largest margin of victory in a Demon Deacons ACC game. Wake is 4–1 overall and 2–1 in the ACC.",
+      "sourceName": "Wake Forest Athletics",
+      "sourceUrl": "https://godeacs.com/news/2026/10/3/football-wake-forest-records-largest-of-margin-of-victory-in-an-acc-game-defeats-stanford-57-3"
+    },
+    {
+      "id": "wake-fb-insider-1",
+      "program": "wake",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": "2026-10-03",
+      "title": "Gio Lopez's five-touchdown day",
+      "summary": "Lopez threw for 265 yards and two touchdowns and added three more scores, a career high.",
+      "body": "Quarterback Gio Lopez completed 20 of 27 passes for 265 yards and two touchdowns against Stanford, and accounted for five total touchdowns, a career high. The Deacs gained 519 total yards.",
+      "sourceName": "Wake Forest Athletics",
+      "sourceUrl": "https://godeacs.com/news/2026/10/3/football-wake-forest-records-largest-of-margin-of-victory-in-an-acc-game-defeats-stanford-57-3"
+    },
+    {
+      "id": "charlotte-fb-free-1",
+      "program": "charlotte",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-10-03",
+      "title": "Charlotte falls 59–8 to Memphis at homecoming",
+      "summary": "The 49ers are 0–5 (0–1 American) after a homecoming loss.",
+      "body": "Charlotte lost 59–8 to Memphis at Jerry Richardson Stadium on Oct. 3. Memphis finished with 674 yards of offense. Charlotte is 0–5 overall and 0–1 in the American Conference.",
+      "sourceName": "Charlotte Athletics",
+      "sourceUrl": "https://charlotte49ers.com/news/2026/10/3/football-charlotte-falls-to-memphis-in-soggy-homecoming-contest"
+    },
+    {
+      "id": "charlotte-fb-insider-1",
+      "program": "charlotte",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": "2026-10-03",
+      "title": "Albin: the defense spent too long on the field",
+      "summary": "Tim Albin said the offense was explosive and the defense was on the field too long.",
+      "body": "Head coach Tim Albin said the Memphis offense was explosive and that his defense was on the field too much. Memphis ran 89 plays. Albin is in his second season.",
+      "sourceName": "Charlotte Athletics",
+      "sourceUrl": "https://charlotte49ers.com/news/2026/10/3/football-charlotte-falls-to-memphis-in-soggy-homecoming-contest"
+    },
+    {
+      "id": "ncsu-fb-free-1",
+      "program": "ncsu",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-10-01",
+      "title": "NC State hosts Louisville on Oct. 3",
+      "summary": "The Wolfpack are 2–2 (0–1 ACC) and face a Louisville team that is also 2–2.",
+      "body": "NC State hosts Louisville at Carter-Finley Stadium on Saturday, Oct. 3, at 3:30 p.m. on ACC Network. Coach Dave Doeren asked fans to bring the noise, noting Louisville has not yet played a true road game this season.",
+      "sourceName": "WRAL Sports",
+      "sourceUrl": "https://www.wral.com/sports/nc-state-dave-doeren-louisville-preview-october-1-2026/"
+    },
+    {
+      "id": "duke-fb-free-1",
+      "program": "duke",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-09-26",
+      "title": "Duke beats William & Mary 62–7, starts 4–0",
+      "summary": "Blue Devils are 4–0 (1–0 ACC) and take an idle week before Georgia Tech on Oct. 10.",
+      "body": "Duke beat William & Mary 62–7 to finish a 4–0 start. The Blue Devils also beat Tulane, Illinois and Stanford. They have a bye this week and play at Georgia Tech on Saturday, Oct. 10.",
+      "sourceName": "Yahoo Sports",
+      "sourceUrl": "https://sports.yahoo.com/articles/does-duke-football-play-week-100422808.html"
+    },
+    {
+      "id": "duke-fb-insider-1",
+      "program": "duke",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": "2026-09-26",
+      "title": "Manny Diaz's second 4–0 start in Durham",
+      "summary": "The 62 points against William & Mary were Duke's most in a game since 1949.",
+      "body": "This is the second time under Manny Diaz that Duke has started 4–0. Per coverage cited by Yahoo Sports, the 62 points were the most Duke has scored in a game since 1949. Duke plays at Georgia Tech on Oct. 10.",
+      "sourceName": "Yahoo Sports",
+      "sourceUrl": "https://sports.yahoo.com/articles/does-duke-football-play-week-100422808.html"
+    },
+    {
+      "id": "ecu-fb-free-1",
+      "program": "ecu",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-09-26",
+      "title": "ECU routs NC Central 42–9",
+      "summary": "The Pirates are 2–2 after a 42–9 win over North Carolina Central.",
+      "body": "East Carolina beat North Carolina Central 42–9 on Sept. 26. The Pirates lost 10–48 to No. 13 Alabama and 24–27 to Appalachian State, and beat Old Dominion 20–17. They are 2–2.",
+      "sourceName": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_East_Carolina_Pirates_football_team"
+    },
+    {
+      "id": "ecu-fb-insider-1",
+      "program": "ecu",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": "2026-09-26",
+      "title": "Blake Harrell's fast start at ECU",
+      "summary": "Harrell is 14–5 in 19 games as head coach, after a 23–17 bowl win in 2025.",
+      "body": "Blake Harrell was named head coach on Nov. 27, 2024. Through 19 games he is 14–5, and he led the Pirates to a 23–17 win over Pittsburgh in the 2025 Military Bowl.",
+      "sourceName": "ECU Athletics",
+      "sourceUrl": "https://ecupirates.com/sports/football/roster/coaches/blake-harrell/4269"
+    },
+    {
+      "id": "appstate-fb-free-1",
+      "program": "appstate",
+      "sport": "football",
+      "tier": "free",
+      "publishedAt": "2026-09-26",
+      "title": "App State's first loss: 41–31 at NC State",
+      "summary": "The Mountaineers are 3–1 and head into a bye week.",
+      "body": "Appalachian State lost 41–31 at NC State on Sept. 26 after a fourth-quarter rally fell short. The Mountaineers are 3–1 and host Old Dominion for Homecoming on Oct. 10.",
+      "sourceName": "The Appalachian",
+      "sourceUrl": "https://theappalachianonline.com/app-state-football-unable-to-complete-fourth-quarter-comeback-against-the-wolfpack"
+    },
+    {
+      "id": "appstate-bb-free-1",
+      "program": "appstate",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": "2026-08-27",
+      "title": "App State announces 2026-27 home schedule",
+      "summary": "Dustin Kerns, in his eighth season, has the Mountaineers entering the new year with a 19–13 record in 2025-26.",
+      "body": "App State announced its 2026-27 home schedule and season tickets on Aug. 27. The Mountaineers went 19–13 (11–7 Sun Belt) in 2025-26 and finished tied for second in the Sun Belt standings.",
+      "sourceName": "App State Athletics",
+      "sourceUrl": "https://appstatesports.com/news/2026/8/27/mens-basketball-mens-basketball-announces-2026-27-home-schedule-season-tickets.aspx"
+    },
+    {
+      "id": "wake-bb-free-1",
+      "program": "wake",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": "2026-07-07",
+      "title": "Wake Forest releases 2026-27 non-conference schedule",
+      "summary": "Season opens Nov. 2 at home against Maryland Eastern Shore.",
+      "body": "Wake Forest will host eight non-conference games at LJVM Coliseum, starting with Maryland Eastern Shore on Monday, Nov. 2. Away games include LSU, UMass and West Virginia, plus a return trip to The Bahamas.",
+      "sourceName": "Wake Forest Athletics",
+      "sourceUrl": "https://godeacs.com/news/2026/7/7/mens-basketball-wake-forest-mens-basketball-announces-non-conference-schedule-for-2026-27-season"
+    },
+    {
+      "id": "wake-bb-insider-1",
+      "program": "wake",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": "2026-07-07",
+      "title": "Forbes' future and the LJVM home-court edge",
+      "summary": "Athletic director John Currie supports Forbes for a seventh season.",
+      "body": "Steve Forbes is expected to return for a seventh season, and athletic director John Currie has backed him. Wake Forest has gone 74–17 at LJVM Coliseum since 2021.",
+      "sourceName": "Sports Illustrated",
+      "sourceUrl": "https://www.si.com/college-basketball/wake-forest-s-steve-forbes-receives-vote-of-confidence-will-likely-return-next-season"
+    },
+    {
+      "id": "appstate-bb-insider-1",
+      "program": "appstate",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": "2026-06-26",
+      "title": "Kerns adds assistants Mitchell and Barrett",
+      "summary": "Two new assistants join the staff before 2026-27.",
+      "body": "App State added Jonathan Mitchell and Carson Barrett as assistant coaches in June 2026. Kerns is tied with Francis Hoover for the fourth-most wins in program history, and needs five more wins to move into the top three.",
+      "sourceName": "App State Athletics",
+      "sourceUrl": "https://appstatesports.com/news/2026/6/26/mens-basketball-mens-basketball-adds-barrett-as-assistant-coach.aspx"
+    },
+    {
+      "id": "ecu-bb-free-1",
+      "program": "ecu",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": "2026-06-08",
+      "title": "ECU announces its 2026-27 roster",
+      "summary": "Mike Schwartz returns, with 12 newcomers joining three returners.",
+      "body": "East Carolina announced its 2026-27 men's basketball roster on June 8. Mike Schwartz returns as head coach after an 11–20 season. Jayshayne Woodard, Eli DeLaurier and Daithi Quinn are the returners.",
+      "sourceName": "ECU Athletics",
+      "sourceUrl": "https://ecupirates.com/news/2026/6/8/mens-basketball-announces-2026-27-roster"
+    },
+    {
+      "id": "unc-bb-free-1",
+      "program": "unc",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": "2026-04-07",
+      "title": "Carolina hires Michael Malone as men's basketball coach",
+      "summary": "Malone, a former Denver Nuggets head coach who won the 2023 NBA title, takes over the Tar Heels.",
+      "body": "UNC hired Michael Malone as men's basketball head coach in April 2026. Malone led the Denver Nuggets to the 2023 NBA championship. The Tar Heels open the season on Nov. 3 against Western Carolina.",
+      "sourceName": "UNC Athletics",
+      "sourceUrl": "https://goheels.com/news/2026/4/7/mens-basketball-carolina-hires-michael-malone-as-mens-basketball-head-coach"
+    },
+    {
+      "id": "unc-bb-insider-1",
+      "program": "unc",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": "2026-04-07",
+      "title": "Malone's first roster and staff",
+      "summary": "Transfers Terrence Brown (Utah), Matt Able (NC State) and Angelo Brizzi (Buffalo) headline the early additions.",
+      "body": "Malone's staff includes Jeff Lebo, Sean May, Brad Frederick, Pat Sullivan and Marcus Paige. Early transfer additions include Terrence Brown from Utah, Matt Able from NC State, and Angelo Brizzi from Buffalo. CBS Sports values the roster at about $20 million.",
+      "sourceName": "247Sports",
+      "sourceUrl": "https://247sports.com/college/north-carolina/article/unc-mens-basketball-coach-michael-malone-283572388/"
+    },
+    {
+      "id": "ncsu-bb-free-1",
+      "program": "ncsu",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": "2026-03-31",
+      "title": "NC State hires Justin Gainey as head coach",
+      "summary": "The former Wolfpack player replaces Will Wade, who returned to LSU.",
+      "body": "NC State hired Justin Gainey as head coach on March 31, 2026, replacing Will Wade, who returned to LSU. Gainey played for the Wolfpack from 1996 to 2000 and was most recently an associate head coach at Tennessee.",
+      "sourceName": "WRAL Sports",
+      "sourceUrl": "https://www.wral.com/sports/ncstate-justin-gainey-mens-basketball-coach-replace-will-wade-march-2026/"
+    },
+    {
+      "id": "charlotte-bb-insider-1",
+      "program": "charlotte",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": "2026-03-31",
+      "title": "Miller's resume and the 49ers' first season",
+      "summary": "Seven 20-win seasons and eight postseason trips as a head coach.",
+      "body": "Miller has seven 20-win seasons and eight postseason appearances as a head coach. He was introduced to Charlotte on March 25, 2026, and Charlotte's season tickets are on sale for 2026-27.",
+      "sourceName": "Charlotte Athletics",
+      "sourceUrl": "https://charlotte49ers.com/news/2026/3/31/featured-charlotte-mens-basketball-all-access-wes-miller"
+    },
+    {
+      "id": "charlotte-bb-free-1",
+      "program": "charlotte",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": "2026-03-23",
+      "title": "Charlotte names Wes Miller 15th men's basketball coach",
+      "summary": "Miller leaves Cincinnati, where he spent five seasons as head coach.",
+      "body": "Charlotte named Wes Miller its 15th men's basketball head coach on March 23, 2026. Miller spent five seasons as head coach at Cincinnati and nearly a decade at UNC Greensboro before that.",
+      "sourceName": "Charlotte Athletics",
+      "sourceUrl": "https://charlotte49ers.com/news/2026/3/23/mens-basketball-wes-miller-named-head-coach-of-charlotte-49ers-mens-basketball"
+    },
+    {
+      "id": "ncsu-fb-insider-1",
+      "program": "ncsu",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": null,
+      "title": "Availability watch: McCrimon, Louisville's QB and safety",
+      "summary": "Starting left tackle Jimarion McCrimon was a game-time decision before the Louisville game.",
+      "body": "Starting left tackle Jimarion McCrimon was listed as a game-time decision against Louisville. On the other side, Louisville's quarterback Lincoln Kienholz and safety Koen Entringer were also game-time decisions.",
+      "sourceName": "On3",
+      "sourceUrl": "https://www.on3.com/teams/nc-state-wolfpack/news/nc-state-football-availability-report-game-day-update-vs-louisville/"
+    },
+    {
+      "id": "appstate-fb-insider-1",
+      "program": "appstate",
+      "sport": "football",
+      "tier": "insider",
+      "publishedAt": null,
+      "title": "Loggains uses the bye week to fix fundamentals",
+      "summary": "Loggains said the team will work on technique after the NC State loss.",
+      "body": "Head coach Dowell Loggains, in his second season, said the bye week would be used to address fundamentals and technique after the NC State loss. He said he was encouraged by the team's effort and resilience.",
+      "sourceName": "WCYB",
+      "sourceUrl": "https://wcyb.com/sports/local-college/appalachian-state-enters-bye-week-after-first-loss-looks-to-clean-up-fundamentals"
+    },
+    {
+      "id": "duke-bb-free-1",
+      "program": "duke",
+      "sport": "mens-basketball",
+      "tier": "free",
+      "publishedAt": null,
+      "title": "Duke's 2026-27 preview: Scheyer rebuilds",
+      "summary": "Jon Scheyer enters his fifth season after losing several players to the NBA.",
+      "body": "Duke lost Cameron Boozer, Isaiah Evans and Maliq Brown to the NBA. Coach Jon Scheyer added transfer John Blackwell and three five-star freshmen (Cameron Williams, Deron Rippey Jr., Bryson Howard). Cayden Boozer, Caleb Foster, Patrick Ngongba II and Dame Sarr return.",
+      "sourceName": "CBS Sports",
+      "sourceUrl": "https://www.cbssports.com/college-basketball/news/duke-basketball-roster-2026-27-season/"
+    },
+    {
+      "id": "duke-bb-insider-1",
+      "program": "duke",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": null,
+      "title": "What the Duke rebuild looks like on the floor",
+      "summary": "Returning guards and the freshman class will set Duke's rotation.",
+      "body": "Cayden Boozer and Caleb Foster return on the perimeter, and Blackwell adds experience from the transfer portal. The freshman class is the No. 1 high school class in the country for the third straight year, per CBS Sports reporting.",
+      "sourceName": "CBS Sports",
+      "sourceUrl": "https://www.cbssports.com/college-basketball/news/duke-basketball-transfer-portal-news-2026-recruits-prospects-roster-updates-targets/"
+    },
+    {
+      "id": "ncsu-bb-insider-1",
+      "program": "ncsu",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": null,
+      "title": "Gainey's contract",
+      "summary": "Reported five-year, $12.75 million deal for the first-time head coach.",
+      "body": "WRAL reports Gainey signed a five-year contract worth $12.75 million. Paul McNeil Jr. was retained, and Ven-Allen Lubin returned for 2026-27.",
+      "sourceName": "WRAL Sports",
+      "sourceUrl": "https://www.wral.com/sports/ncstate-justin-gainey-mens-basketball-coach-contract-april-2026/"
+    },
+    {
+      "id": "ecu-bb-insider-1",
+      "program": "ecu",
+      "sport": "mens-basketball",
+      "tier": "insider",
+      "publishedAt": null,
+      "title": "Why ECU kept Schwartz",
+      "summary": "The athletic director cited the program review as the reason for keeping Schwartz.",
+      "body": "ECU kept Mike Schwartz after a program review, with the athletic director saying Schwartz gives the program its best chance to win next year. Schwartz has two years left on his contract after 2026-27.",
+      "sourceName": "On3",
+      "sourceUrl": "https://www.on3.com/news/ecu-ad-jon-gilbert-announces-mike-schwartz-will-return-as-head-coach-in-2026-27/"
+    }
+  ],
+  "rosterUpdatedAt": "2026-10-03",
+  "nextGenUpdatedAt": null,
+  "nextGen": {},
+  "sourcesNote": "Coaches, records, and game results: official school athletics sites and Wikipedia season pages, checked 2026-10-03. Rosters: ESPN team pages, retrieved 2026-10-03. NIL figures: see each program's nil.source."
+}

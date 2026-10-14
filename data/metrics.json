@@ -1,0 +1,1185 @@
+{
+ "updatedAt": "2026-10-03",
+ "source": "ESPN public team statistics feed (site.api.espn.com), pulled 2026-10-03; football reflects games ESPN had posted at pull time",
+ "definitions": {
+  "football": [
+   {
+    "key": "ptsPerGame",
+    "label": "Points per game",
+    "definition": "Points scored per game.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "ptsAllowedPerGame",
+    "label": "Points allowed per game",
+    "definition": "Points allowed per game (opponent scoring).",
+    "group": "Defense",
+    "better": "lower",
+    "unit": "num"
+   },
+   {
+    "key": "passYpg",
+    "label": "Passing yards per game",
+    "definition": "Net passing yards per game.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "rushYpg",
+    "label": "Rushing yards per game",
+    "definition": "Rushing yards per game.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "compPct",
+    "label": "Completion %",
+    "definition": "Share of pass attempts completed.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "pct"
+   },
+   {
+    "key": "ydsPerPass",
+    "label": "Yards per pass attempt",
+    "definition": "Net passing yards per attempt.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "ydsPerRush",
+    "label": "Yards per rush attempt",
+    "definition": "Rushing yards per carry.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "thirdDownPct",
+    "label": "3rd-down conversion %",
+    "definition": "Share of third-down plays converted.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "pct"
+   },
+   {
+    "key": "oppThirdDownPct",
+    "label": "Opponent 3rd-down %",
+    "definition": "Share of opponents' third-down plays converted.",
+    "group": "Defense",
+    "better": "lower",
+    "unit": "pct"
+   },
+   {
+    "key": "takeaways",
+    "label": "Takeaways",
+    "definition": "Interceptions and fumbles recovered by the defense.",
+    "group": "Defense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "giveaways",
+    "label": "Giveaways",
+    "definition": "Turnovers committed by the offense.",
+    "group": "Offense",
+    "better": "lower",
+    "unit": "num"
+   },
+   {
+    "key": "turnoverMargin",
+    "label": "Turnover margin",
+    "definition": "Takeaways minus giveaways.",
+    "group": "Overall",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "sacks",
+    "label": "Sacks (defense)",
+    "definition": "Quarterback sacks by the defense.",
+    "group": "Defense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "sacksAllowed",
+    "label": "Sacks allowed",
+    "definition": "Times the offense's quarterbacks were sacked.",
+    "group": "Offense",
+    "better": "lower",
+    "unit": "num"
+   }
+  ],
+  "mens-basketball": [
+   {
+    "key": "ptsPerGame",
+    "label": "Points per game",
+    "definition": "Points scored per game.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "fgPct",
+    "label": "Field goal %",
+    "definition": "Share of field goals made.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "pct"
+   },
+   {
+    "key": "threePct",
+    "label": "Three-point %",
+    "definition": "Share of three-pointers made.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "pct"
+   },
+   {
+    "key": "ftPct",
+    "label": "Free throw %",
+    "definition": "Share of free throws made.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "pct"
+   },
+   {
+    "key": "apg",
+    "label": "Assists per game",
+    "definition": "Assists per game.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "topg",
+    "label": "Turnovers per game",
+    "definition": "Turnovers committed per game.",
+    "group": "Offense",
+    "better": "lower",
+    "unit": "num"
+   },
+   {
+    "key": "astTo",
+    "label": "Assist-to-turnover ratio",
+    "definition": "Assists divided by turnovers.",
+    "group": "Offense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "rpg",
+    "label": "Rebounds per game",
+    "definition": "Total rebounds per game.",
+    "group": "Rebounding",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "spg",
+    "label": "Steals per game",
+    "definition": "Steals per game.",
+    "group": "Defense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "bpg",
+    "label": "Blocks per game",
+    "definition": "Blocks per game.",
+    "group": "Defense",
+    "better": "higher",
+    "unit": "num"
+   },
+   {
+    "key": "fouls",
+    "label": "Fouls per game",
+    "definition": "Personal fouls per game.",
+    "group": "Defense",
+    "better": "lower",
+    "unit": "num"
+   }
+  ]
+ },
+ "teams": {
+  "unc": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 3.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 23.33,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 13.67,
+      "rank": 2,
+      "nationalRank": 19
+     },
+     "passYpg": {
+      "value": 211.0,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 155.0,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 56.0,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 7.5,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 4.9,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 38.24,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 44.44,
+      "rank": 7,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 4.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 4.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": 0.0,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 10.0,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 7.0,
+      "rank": 5,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 32.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 79.78,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 47.28,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 34.46,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 68.41,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 15.97,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 9.66,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 1.65,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 38.03,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 5.34,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.44,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 14.62,
+      "rank": 1,
+      "nationalRank": null
+     }
+    }
+   }
+  },
+  "duke": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 4.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 36.25,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 11.0,
+      "rank": 1,
+      "nationalRank": 6
+     },
+     "passYpg": {
+      "value": 222.75,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 243.5,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 61.1,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 8.3,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 5.8,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 43.14,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 26.0,
+      "rank": 1,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 4.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 2.0,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": 2.0,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 11.0,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 1.0,
+      "rank": 1,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 34.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 82.29,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 48.99,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 35.07,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 72.4,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 16.94,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 10.53,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 1.61,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 40.29,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 7.79,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.26,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 15.71,
+      "rank": 3,
+      "nationalRank": null
+     }
+    }
+   }
+  },
+  "ncsu": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 4.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 38.25,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 25.0,
+      "rank": 4,
+      "nationalRank": 87
+     },
+     "passYpg": {
+      "value": 232.75,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 219.0,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 68.0,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 7.6,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 5.6,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 53.57,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 28.3,
+      "rank": 2,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 6.0,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 7.0,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": -1.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 4.0,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 6.0,
+      "rank": 4,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 33.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 83.7,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 46.81,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 38.82,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 76.77,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 15.61,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 9.24,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 1.69,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 34.52,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 8.06,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.36,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 18.24,
+      "rank": 6,
+      "nationalRank": null
+     }
+    }
+   }
+  },
+  "ecu": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 4.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 24.0,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 25.25,
+      "rank": 5,
+      "nationalRank": 89
+     },
+     "passYpg": {
+      "value": 208.5,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 127.5,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 60.0,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 7.3,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 4.0,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 26.09,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 35.48,
+      "rank": 3,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 5.0,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 8.0,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": -3.0,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 11.0,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 9.0,
+      "rank": 7,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 31.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 71.52,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 41.88,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 28.82,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 70.4,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 11.77,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 12.23,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 0.96,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 36.55,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 6.42,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.94,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 16.06,
+      "rank": 4,
+      "nationalRank": null
+     }
+    }
+   }
+  },
+  "wake": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 4.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 31.5,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 28.0,
+      "rank": 6,
+      "nationalRank": 107
+     },
+     "passYpg": {
+      "value": 279.5,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 147.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 62.2,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 8.8,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 4.5,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 37.5,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 43.86,
+      "rank": 6,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 3.0,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 2.0,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": 1.0,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 10.0,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 8.0,
+      "rank": 6,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 33.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 78.85,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 45.04,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 34.42,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 77.39,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 14.27,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 10.82,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 1.32,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 33.15,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 7.82,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.48,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 18.79,
+      "rank": 7,
+      "nationalRank": null
+     }
+    }
+   }
+  },
+  "appstate": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 4.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 34.75,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 22.25,
+      "rank": 3,
+      "nationalRank": 65
+     },
+     "passYpg": {
+      "value": 319.25,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 144.8,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 72.7,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 8.9,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 4.2,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 36.54,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 36.36,
+      "rank": 4,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 2.0,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 3.0,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": -1.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 6.0,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 4.0,
+      "rank": 2,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 32.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 72.03,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 44.0,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 30.35,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 64.15,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 12.12,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 9.88,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 1.23,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 39.09,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 4.91,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.69,
+      "rank": 2,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 15.62,
+      "rank": 2,
+      "nationalRank": null
+     }
+    }
+   }
+  },
+  "charlotte": {
+   "football": {
+    "season": "2026",
+    "gamesCounted": 4.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 19.5,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "ptsAllowedPerGame": {
+      "value": 36.0,
+      "rank": 7,
+      "nationalRank": 130
+     },
+     "passYpg": {
+      "value": 205.75,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "rushYpg": {
+      "value": 105.3,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "compPct": {
+      "value": 64.9,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "ydsPerPass": {
+      "value": 6.1,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "ydsPerRush": {
+      "value": 4.0,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "thirdDownPct": {
+      "value": 30.19,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "oppThirdDownPct": {
+      "value": 40.82,
+      "rank": 5,
+      "nationalRank": 1
+     },
+     "takeaways": {
+      "value": 8.0,
+      "rank": 1,
+      "nationalRank": null
+     },
+     "giveaways": {
+      "value": 9.0,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "turnoverMargin": {
+      "value": -1.0,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "sacks": {
+      "value": 6.0,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "sacksAllowed": {
+      "value": 4.0,
+      "rank": 2,
+      "nationalRank": null
+     }
+    }
+   },
+   "mens-basketball": {
+    "season": "2025-26 season (last completed)",
+    "gamesCounted": 34.0,
+    "stats": {
+     "ptsPerGame": {
+      "value": 73.29,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "fgPct": {
+      "value": 45.59,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "threePct": {
+      "value": 34.91,
+      "rank": 3,
+      "nationalRank": null
+     },
+     "ftPct": {
+      "value": 71.64,
+      "rank": 4,
+      "nationalRank": null
+     },
+     "apg": {
+      "value": 13.06,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "topg": {
+      "value": 11.94,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "astTo": {
+      "value": 1.09,
+      "rank": 6,
+      "nationalRank": null
+     },
+     "rpg": {
+      "value": 34.53,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "spg": {
+      "value": 4.59,
+      "rank": 7,
+      "nationalRank": null
+     },
+     "bpg": {
+      "value": 3.41,
+      "rank": 5,
+      "nationalRank": null
+     },
+     "fouls": {
+      "value": 16.88,
+      "rank": 5,
+      "nationalRank": null
+     }
+    }
+   }
+  }
+ }
+}

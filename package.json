@@ -1,0 +1,21 @@
+{
+  "name": "nc-sports-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "North Carolina Sports Report: insider coverage of North Carolina FBS football and men's basketball",
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "start:demo": "DEMO_BILLING=1 node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server.js",
+    "test": "node --test --test-concurrency=1 --disable-warning=ExperimentalWarning tests/api.test.mjs tests/payments.test.mjs tests/radar.test.mjs tests/nc7.test.mjs tests/security.test.mjs tests/pro.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.23.1",
+    "serverless-http": "^4.0.0"
+  }
+}
